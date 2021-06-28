@@ -45,5 +45,5 @@ jobs:
     - uses: subosito/flutter-action@v1
       with:
         channel: 'stable' # or: 'dev' or 'beta'
-    - name: "Run Flutter Driver tests"
+    - name: "Run Flutter Driver tests forked"
       run: "flutter drive --target=test_driver/app.dart"
